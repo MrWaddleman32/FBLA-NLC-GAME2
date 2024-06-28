@@ -7,7 +7,7 @@ public class LvlSelectorScript : MonoBehaviour
 {
     public GameObject lvl1btn;
     public GameObject lvl2btn;
-    //public GameObject lvl3btn;
+    public GameObject lvl3btn;
 
     public void StartLevel1()
     {
@@ -20,6 +20,7 @@ public class LvlSelectorScript : MonoBehaviour
     private void Start()
     {
         showLevel2();
+        showLevel3();
     }
 
     public void showLevel2()
@@ -30,4 +31,9 @@ public class LvlSelectorScript : MonoBehaviour
             lvl1btn.SetActive(false);
         }
     }
+    public void showLevel3()
+    {
+
+    }
+
 }
